@@ -133,8 +133,9 @@ header {
 }
 
 .logo img {
-  height: 12em;
-  width: 12em;
+  padding: 20px;
+  height: 4em;
+  width: 6em;
 }
 
 
