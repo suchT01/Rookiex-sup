@@ -55,49 +55,6 @@
         
     </main>
 
-    <script>
-        function toggleNav() {
-            var links = document.getElementById("mobileMenu");
-            if (links.style.display === "block") {
-                links.style.display = "none";
-            } else {
-                links.style.display = "block";
-            }
-        }
-
-        function toggleQS() {
-            var bandera3 = true
-            if (bandera3 == true) {
-                $('.quienes-somos').show(1000);
-                $('.quienes-somos').slideDown(1000);
-
-                bandera3 = false;
-            }
-            else {
-                $('.quienes-somos').hide(1000);
-                $('.quienes-somos').slideUp(1000);
-
-                bandera3 = true;
-            }
-        }
-
-        function toggleFounders() {
-            var bandera = true
-            if (bandera == true) {
-                $('.fundadores-org').show(1000);
-                $('.fundadores-org').slideDown(1000);
-
-                bandera = false;
-            }
-            else {
-                $('.fundadores-org').hide(1000);
-                $('.fundadores-org').slideUp(1000);
-
-                bandera = true;
-            }
-        }
-
-    </script>
 
     <script src="src/js/index.js"></script>
     <script src="src/js/jquery.js"></script>
