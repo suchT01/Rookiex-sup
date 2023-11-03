@@ -1,6 +1,4 @@
-
-import './css/styles.css'
-import { headerCatalogo } from './components/header'
+import Index from './components/index';
 
 function App() {
 
@@ -11,7 +9,7 @@ function App() {
   return (
 
     <div>
-      {headerCatalogo()}
+      <Index/>
     </div>
     
     
