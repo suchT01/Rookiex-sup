@@ -5,28 +5,37 @@ import Rook from '../img/rook.jpg';
 export default function Index(props){
     return(
         <>
-            <header className="navbar">
-                <div className="logo">
-                    <img src={Rookiex} alt="rookiex-Logo" className="rookiexLogo" />
-                </div>
-                <nav className="nav-items">
-                    <ul>
-                        <li><a href=""><span>Inicio</span></a></li>
-                        <li><a href=""><span>Nosotros</span></a></li>
-                        <li><a href=""><span>Iniciar Sesión</span></a></li>
-                        <li><a href=""><span>Buscar</span></a></li>
-                        <li><a href=""><span>Carrito</span></a></li>
-                    </ul>
-                </nav>
-            </header>
-            <main id="init">
-                <div class="init-Img">
-                    <img src={Rook} alt="rocaImage" className='rocaImage' />
-                </div>
-                <div class="init-Msg">
-                    
-                </div>
-            </main>
+            <header>
+
+<div class="logo">
+    <img src={Rookiex} alt="asd"/>
+</div>
+<nav class="navegacion clearfix">
+    <ul>
+        <li><a href="./login.html"><span>Inicio</span></a></li>
+        <li><a href="./registrar-usuario.php"><span>Nosotros</span></a></li>
+        <li><a href="#quienesSomos"></a><span>Iniciar Sesión</span></li>
+        <li><a href="#caracteristicas"></a><span>Buscar</span></li>
+        <li><a href="#caracteristicas"></a><span>Carrito</span></li>
+    </ul>
+</nav>
+<div class="navegacionMobile">
+    <div class="menuBtn" onClick="toggleNav()">
+        Menu
+    </div>
+</div>
+
+</header>
+
+<main id="inicio">
+<div class="imagen-inicio">
+    <img src={Rook} alt=""/>
+</div>
+<div class="mensaje-inicial">
+    <h1>Mantente en tu Prime. Alcanza tu PEAK</h1>
+</div>
+
+</main>
 
         </>
     );
