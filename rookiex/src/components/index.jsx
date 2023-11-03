@@ -10,13 +10,11 @@ export default function Index(props){
                     <img src={Rookiex} alt="rookiex-Logo" className="rookiexLogo" />
                 </div>
                 <nav className="nav-items">
-                    <ul>
-                        <li><a href=""><span>Inicio</span></a></li>
-                        <li><a href=""><span>Nosotros</span></a></li>
-                        <li><a href=""><span>Iniciar Sesión</span></a></li>
-                        <li><a href=""><span>Buscar</span></a></li>
-                        <li><a href=""><span>Carrito</span></a></li>
-                    </ul>
+                    <a href=""><span>Inicio</span></a>
+                    <a href=""><span>Nosotros</span></a>
+                    <a href=""><span>Iniciar Sesión</span></a>
+                    <a href=""><span>Buscar</span></a>
+                    <a href=""><span>Carrito</span></a>            
                 </nav>
             </header>
             <main id="init">
