@@ -1,0 +1,17 @@
+.navbar{
+    height: 9vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    height:100%;
+}
+
+.logo img{
+    margin-left: 10px;
+    height: 4em;
+    width: 5em;
+}
