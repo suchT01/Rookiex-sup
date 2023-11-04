@@ -14,11 +14,7 @@ export const headerCatalogo = () =>{
                     <li><a href="#caracteristicas"></a><span>Carrito</span></li>
                 </ul>
             </nav>
-            <div class="navegacionMobile">
-                <div class="menuBtn" onClick="toggleNav()">
-                    Menu
-                </div>
-            </div>
+            
 
         </header>
     )

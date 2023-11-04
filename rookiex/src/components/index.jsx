@@ -19,11 +19,7 @@ export default function Index(props){
         <li><a href="#caracteristicas"></a><span>Carrito</span></li>
     </ul>
 </nav>
-<div class="navegacionMobile">
-    <div class="menuBtn" onClick="toggleNav()">
-        Menu
-    </div>
-</div>
+
 
 </header>
 
