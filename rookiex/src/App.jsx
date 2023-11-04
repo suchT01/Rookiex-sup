@@ -21,11 +21,17 @@ function App() {
 
       <main>
         {headerCatalogo()}
+        <form className='form' >
+            <input name='query' placeholder='Muscle Tech, My Protein...' type="text" />
+            {/* <input type="checkbox" onChange={handleSort} checked={sort} /> */}
+            <button type='submit'>buscar</button>
+          </form>
         <section className='products'>
-        {
-          hasproducts?(renderCatalogo({products}))
-          :(renderNoResults()) 
-        }
+          
+            {
+              hasproducts?(renderCatalogo({products}))
+              :(renderNoResults()) 
+            }
         </section>
         
       </main>
