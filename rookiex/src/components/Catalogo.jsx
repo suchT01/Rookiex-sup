@@ -1,14 +1,15 @@
 export const renderCatalogo = ({products}) => {
     return(
-        <ul>
+        <ul className="products">
+            <img src="" alt="" />
             {
-                
-                  <li className="movie" key={products.imdbID}>
-                    {/* <img src={product.Poster} alt="" /> */}
-                    <h3>{products.title}</h3>
+                products.map(product => (
+                  <li className="product" key={product.imdbID}>
+                    <img src={product.Poster} alt="" />
+                    <h3>{product.Title}</h3>
                   </li>
                   
-                
+                ))
               }
         </ul>
     )
