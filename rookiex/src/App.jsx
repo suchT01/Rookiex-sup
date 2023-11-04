@@ -24,7 +24,7 @@ function App() {
         <section className='products'>
         {
           hasproducts?(renderCatalogo({products}))
-          :(renderNoResults())
+          :(renderNoResults()) 
         }
         </section>
         
