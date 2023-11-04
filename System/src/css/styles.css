@@ -109,16 +109,6 @@ header {
 
 
 
-@keyframes fondo{
-  0% {
-    width: 0%;
-  }
-
-  /* 50%{opacity: 50%;} */
-  100% {
-    width: 100%;
-  }
-}
 
 
 
@@ -129,7 +119,7 @@ header {
   display: flex;
   align-items: center;
   /* justify-content: center; */
-  animation: aparicion 1.5s ease-in;
+  
 }
 
 .logo img {
@@ -140,16 +130,7 @@ header {
 
 
 
-@keyframes aparicion {
-  0% {
-    opacity: 0;
-  }
 
-  /* 50%{opacity: 50%;} */
-  100% {
-    opacity: 100%;
-  }
-}
 
 .imagen-inicio img {
   
@@ -483,10 +464,7 @@ span:hover {
     margin-bottom: 0 !important;
   }
 
-  header {
-    position: fixed;
-    font-size: 15px;
-  }
+  
 
   .empieza-a-programar{
     height: 100vh;
@@ -501,9 +479,7 @@ span:hover {
     width: 19.5ch;
     margin-bottom: 200px;
   }
-  nav{
-    display: flex;
-  }
+  
 
   .empieza-a-programar{
     height: 100vh;

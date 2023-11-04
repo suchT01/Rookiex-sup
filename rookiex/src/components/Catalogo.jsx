@@ -1,7 +1,7 @@
 export const renderCatalogo = ({products}) => {
     return(
         <ul className="products">
-            <img src="" alt="" />
+            
             {
                 products.map(product => (
                   <li className="product" key={product.imdbID}>

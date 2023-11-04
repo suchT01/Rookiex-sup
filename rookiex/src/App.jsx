@@ -16,18 +16,22 @@ function App() {
 
   return (
 
-    <div>
-      {headerCatalogo()}
+    
+      
 
       <main>
+        {headerCatalogo()}
+        <section className='products'>
         {
           hasproducts?(renderCatalogo({products}))
           :(renderNoResults())
         }
+        </section>
+        
       </main>
 
 
-    </div>
+    
     
     
 

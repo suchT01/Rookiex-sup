@@ -52,8 +52,19 @@ body{
     opacity: 70%;
 }
 
+.products{
+  margin-top: 0;
+}
 
-
+.products ul{
+  margin: 0;
+  padding: 0;
+  
+}
+li{
+  margin: 0;
+  padding: 0;
+}
 
 
 p{
@@ -545,10 +556,7 @@ p{
       margin-bottom: 0 !important;
     }
   
-    header {
-      position: fixed;
-      font-size: 15px;
-    }
+    
   
     .empieza-a-programar{
       height: 100vh;
