@@ -4,9 +4,10 @@ export const renderCatalogo = ({products}) => {
             
             {
                 products.map(product => (
-                  <li className="product" key={product.imdbID}>
+                  <li className="list-item" key={product.imdbID}>
                     <img src={product.Poster} alt="" />
                     <h3>{product.Title}</h3>
+                    
                   </li>
                   
                 ))

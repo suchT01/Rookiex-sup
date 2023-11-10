@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './css/styles.css'
-import { headerCatalogo } from './components/header'
+import { HeaderCatalogo } from './components/header'
 import { renderCatalogo, renderNoResults } from './components/Catalogo'
 import responseProducts from './mocks/with-results.json'
 
@@ -20,7 +20,22 @@ function App() {
       
 
       <main>
-        {headerCatalogo()}
+        <div className='rock-image'>
+          <img src="src/img/rook.jpg" alt="" />
+        </div>
+        <div className="opacidad"></div>
+        
+        
+        
+        <HeaderCatalogo></HeaderCatalogo>
+        <nav>
+          <ul className='nav-bar'>
+            <li><button className='button'>Proteina</button></li>
+            <li><button className='button'>Pre-Entreno</button></li>
+            <li><button className='button'>Creatina</button></li>
+            <li><button className='button'>Otros</button></li>            
+          </ul>
+        </nav>
         <form className='form' >
             <input name='query' placeholder='Muscle Tech, My Protein...' type="text" />
             {/* <input type="checkbox" onChange={handleSort} checked={sort} /> */}
