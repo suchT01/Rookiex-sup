@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import './css/styles.css'
 import { HeaderCatalogo } from './components/header'
 import { renderCatalogo, renderNoResults } from './components/Catalogo'
