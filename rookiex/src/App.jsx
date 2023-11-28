@@ -17,12 +17,12 @@ function useSearch(){
     }
 
     if (query == ''){
-      setError('No se puede buscar una pelicula vacía')
+      setError('Ingrese un producto')
       return
     }
 
     if (query.match(/^\d*$/)){
-      setError('No se puede buscar una pelicula con un numero')
+      setError('No se puede buscar un producto con un numero')
       return
     }
 
