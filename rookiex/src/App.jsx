@@ -43,7 +43,7 @@ function App() {
 
   const { query, setQuery, error} = useSearch()
 
-  const [responseproducts, setResponsiveproducts] = useState([])
+  const [responseProducts, setResponsiveProducts] = useState([])
   const products = responseProducts.Search
 
 
@@ -52,11 +52,11 @@ function App() {
     
     if(previousSearch.current == query) return
     if(query){
-      searchProducts({query,setResponsiveproducts}) // Crear funcion searchProducts
+      searchProducts({query,setResponsiveProducts}) // Crear funcion searchProducts
       
     }
     else{
-      setResponsiveproducts(withoutResults)
+      setResponsiveProducts(withoutResults)
     }
     
   }
@@ -93,7 +93,7 @@ function App() {
             <li><button className='button'>Otros</button></li>            
           </ul>
         </nav>
-        <form className='form' >
+        <form className='form' onSubmit={handleSubmit} >
             <input name='query' placeholder='Muscle Tech, My Protein...' type="text" />
             {/* <input type="checkbox" onChange={handleSort} checked={sort} /> */}
             <button type='submit'>buscar</button>
