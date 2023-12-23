@@ -5,7 +5,7 @@ export const HeaderCatalogo = () =>{
             <div className="logo">
                 <img src="src/img/rookiex-logo.png" alt="asd"></img>
             </div>
-            <nav className="navegacion clearfix">
+            <nav className="navegacion">
                 <ul>
                     <li><a href="./login.html"></a><span>Inicio</span></li>
                     <li><a href="./registrar-usuario.php"></a><span>Nosotros</span></li>

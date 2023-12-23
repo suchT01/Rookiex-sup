@@ -1,0 +1,68 @@
+/**  IMAGEN DE FONDO  **/
+
+.rock-image{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: -2;
+}
+
+.rock-image img{
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.opacidad{
+    background-color: #000;
+    opacity: .8;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+
+/**  IMAGEN DE FONDO  **/
+
+
+/**  HEADER  **/
+
+header{
+    height: 10vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    min-width: 800px;
+    margin-bottom: 100px;
+}
+
+
+
+nav ul{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-content: center;
+    min-width: 800px;
+}
+
+.logo{
+    margin-left: 20px;
+}
+
+.logo img{
+    height: 10vh;
+    min-height: 55px;
+}
+
+.navegacion ul li{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+/**  HEADER  **/

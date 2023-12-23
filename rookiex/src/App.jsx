@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from 'react'
 import './css/styles.css'
+import './css/catalogo.css'
 import { HeaderCatalogo } from './components/header'
 import { renderCatalogo, renderNoResults } from './components/Catalogo'
 import responseProducts from './mocks/with-results.json'
@@ -43,7 +44,7 @@ function App() {
 
   const { query, setQuery, error} = useSearch()
 
-  const [responseProducts, setResponsiveProducts] = useState([])
+  // const [responseProducts, setResponsiveProducts] = useState([])
   const products = responseProducts.Search
 
 
