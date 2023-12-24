@@ -1,3 +1,6 @@
+import '../js/jquery'
+import '../js/jquery.lettering'
+import '../js/scripts'
 export const HeaderCatalogo = () =>{
     return(
         <header>
@@ -5,15 +8,7 @@ export const HeaderCatalogo = () =>{
             <div className="logo">
                 <img src="src/img/rookiex-logo.png" alt="asd"></img>
             </div>
-            <nav className="navegacion">
-                <ul>
-                    <li><a href="./login.html"></a><span>Inicio</span></li>
-                    <li><a href="./registrar-usuario.php"></a><span>Nosotros</span></li>
-                    <li><a href="#quienesSomos"></a><span>Iniciar Sesión</span></li>
-                    <li><a href="#caracteristicas"></a><span>Buscar</span></li>
-                    <li><a href="#caracteristicas"></a><span>Carrito</span></li>
-                </ul>
-            </nav>
+            <h2 className='titulo'>ALCANZA TU MAXIMO POTENCIAL</h2>
             
 
         </header>

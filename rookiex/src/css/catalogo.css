@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+
 /**  IMAGEN DE FONDO  **/
 
 .rock-image{
@@ -30,39 +34,86 @@
 /**  HEADER  **/
 
 header{
-    height: 10vh;
+    
     width: 100%;
     display: grid;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 75px 1fr;
+    
     align-items: center;
     max-width: 1400px;
     margin: 0 auto;
     min-width: 800px;
-    margin-bottom: 100px;
+    
+}
+
+header h2{
+    text-align: center;
+    color: white;
+    font-family: 'EB Garamond', serif;
+    letter-spacing: 5px;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 20px auto;
+    
+    
+}
+
+.char1{
+    font-size: 100px;
+    top: 20px;
+    color: #960808;
+}
+.char9{
+    font-size: 100px;
+    top: 20px;
+    color: #960808;
+}
+
+.char19{
+    font-size: 100px;
+    top: 20px;
+    color: #960808;
 }
 
 
-
-nav ul{
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
-    justify-content: center;
-    min-width: 800px;
-}
 
 .logo{
     margin-left: 20px;
 }
 
 .logo img{
-    height: 10vh;
+    width: 55px;
     min-height: 55px;
 }
 
-.navegacion ul li{
-    text-decoration: none;
-    list-style: none;
-    color: white;
+/**  HEADER  **/
+
+
+/**  Barra de navegacion  **/
+
+nav ul{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    min-width: 700px;
+    border-bottom: 4px solid red;
 }
 
-/**  HEADER  **/
+nav ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.button{
+    text-decoration: none;
+    list-style: none;
+    background-color: transparent;
+    border:none;
+    color: white;
+    font-family: 'EB Garamond', serif;
+    font-size: 22px;
+}
+
+/**  Barra de navegacion  **/

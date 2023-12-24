@@ -1,9 +1,12 @@
 import { useState, useRef, useEffect } from 'react'
 import './css/styles.css'
 import './css/catalogo.css'
-import { HeaderCatalogo } from './components/header'
+import { HeaderCatalogo } from './components/Header'
 import { renderCatalogo, renderNoResults } from './components/Catalogo'
 import responseProducts from './mocks/with-results.json'
+import './js/jquery'
+import './js/jquery.lettering'
+import './js/scripts'
 
 function useSearch(){
   const [query, setQuery] = useState('')
