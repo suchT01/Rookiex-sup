@@ -89,14 +89,7 @@ function App() {
         
         
         <HeaderCatalogo></HeaderCatalogo>
-        <nav>
-          <ul className='nav-bar'>
-            <li><button className='button'>Proteina</button></li>
-            <li><button className='button'>Pre-Entreno</button></li>
-            <li><button className='button'>Creatina</button></li>
-            <li><button className='button'>Otros</button></li>            
-          </ul>
-        </nav>
+        
         <form className='form' onSubmit={handleSubmit} >
             <input name='query' placeholder='Muscle Tech, My Protein...' type="text" />
             {/* <input type="checkbox" onChange={handleSort} checked={sort} /> */}

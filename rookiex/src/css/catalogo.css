@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 /**  IMAGEN DE FONDO  **/
 
@@ -18,8 +18,8 @@
 }
 
 .opacidad{
-    background-color: #000;
-    opacity: .8;
+    background-color: #0e0e0e;
+    
     position: fixed;
     top: 0;
     left: 0;
@@ -43,17 +43,24 @@ header{
     max-width: 1400px;
     margin: 0 auto;
     min-width: 800px;
-    
+    background-image: url('../img/foto_gym3.jpg');
+    background-size: cover;
+    background-position-y: 250px;
 }
 
 header h2{
     text-align: center;
-    color: white;
-    font-family: 'EB Garamond', serif;
+    color: rgba(0, 0, 0, .1);
+    font-family: 'Anton', sans-serif;
     letter-spacing: 5px;
-    font-size: 50px;
+    font-size: 70px;
     font-weight: bold;
     margin: 20px auto;
+    background-image: url('../img/fondo-textura-hormigon-oscuro-texture.jpg');
+    background-size: cover;
+    background-position-y: bottom;
+    background-clip: text;
+
     
     
 }
@@ -61,18 +68,30 @@ header h2{
 .char1{
     font-size: 100px;
     top: 20px;
-    color: #960808;
+    color: rgba(150, 8, 8, .7);;
+    background-image: url('../img/textura-roja.jpg');
+    background-size: cover;
+    background-position-y: bottom;
+    background-clip: text;
+    
 }
 .char9{
     font-size: 100px;
     top: 20px;
-    color: #960808;
+    color: rgba(150, 8, 8, .7);;
+    background-image: url('../img/textura-roja.jpg');    background-size: cover;
+    background-position-y: bottom;
+    background-clip: text;
+    
 }
 
 .char19{
     font-size: 100px;
     top: 20px;
-    color: #960808;
+    color: rgba(150, 8, 8, .7);;
+    background-image: url('../img/textura-roja.jpg');    background-size: cover;
+    background-position-y: bottom;
+    background-clip: text;
 }
 
 
@@ -91,6 +110,13 @@ header h2{
 
 /**  Barra de navegacion  **/
 
+nav{
+    width: 100%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    overflow: hidden;
+}
+
 nav ul{
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -99,6 +125,8 @@ nav ul{
     margin: 0 auto;
     min-width: 700px;
     border-bottom: 4px solid red;
+    width: 100%;
+    
 }
 
 nav ul li{
@@ -117,3 +145,42 @@ nav ul li{
 }
 
 /**  Barra de navegacion  **/
+
+
+/**  Formulario  **/
+
+.form{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+/**  Formulario  **/
+
+
+/**  catalogo  **/
+
+.products{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 20px;
+  text-align: center;
+}
+
+.list-item{
+    list-style: none;
+}
+
+/**  catalogo  **/
+
+
+/**  Imagen producto  **/
+
+li img{
+    width: 200px;
+}
