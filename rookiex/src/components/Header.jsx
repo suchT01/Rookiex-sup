@@ -1,23 +1,22 @@
-import '../js/jquery'
-import '../js/jquery.lettering'
-import '../js/scripts'
 export const HeaderCatalogo = () =>{
     return(
-        <header>
 
+        <header className="header">
             <div className="logo">
-                <img src="src/img/rookiex-logo.png" alt="asd"></img>
+                <img src="/src/img/rookiex-logo.png" alt="logo"></img>
             </div>
-            <h2 className='titulo'>ALCANZA TU MAXIMO POTENCIAL</h2>
+            
             <nav>
-                <ul className='nav-bar'>
-                    <li><button className='button'>Proteina</button></li>
-                    <li><button className='button'>Pre-Entreno</button></li>
-                    <li><button className='button'>Creatina</button></li>
-                    <li><button className='button'>Otros</button></li>            
+                <ul className="nav-links">
+                    <li><a href="#">Suplementos</a></li>
+                    <li><a href="#">Accesorios</a></li>
+                    <li><a href="#">Buscar</a></li>
+                    <li><a href="#">Carrito</a></li>
                 </ul>
             </nav>
 
+            <a href="#" className="btn"><button>Contacto</button></a>
+            
         </header>
     )
 }

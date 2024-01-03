@@ -1,115 +1,38 @@
 import { useState, useRef, useEffect } from 'react'
-import './css/styles.css'
-import './css/catalogo.css'
 import { HeaderCatalogo } from './components/Header'
-import { renderCatalogo, renderNoResults } from './components/Catalogo'
-import responseProducts from './mocks/with-results.json'
-import './js/jquery'
-import './js/jquery.lettering'
-import './js/scripts'
+import { QuienesSomos } from './components/QuienesSomos'
+import { Historia } from './components/Historia'
+import { Objetivos } from './components/Objetivos'
+import { Equipo } from './components/Equipo'
+import { Footer } from './components/Footer'
+import './css/landing.css'
 
-function useSearch(){
-  const [query, setQuery] = useState('')
-  const [error, setError] = useState(null)
-  const isFirstInput = useRef(true)
 
-  useEffect(() => {
-    
-    if(isFirstInput.current){
-      isFirstInput.current = query == ''
-      return
-    }
-
-    if (query == ''){
-      setError('Ingrese un producto')
-      return
-    }
-
-    if (query.match(/^\d*$/)){
-      setError('No se puede buscar un producto con un numero')
-      return
-    }
-
-    if (query.length < 3){
-      setError('La busqueda debe contener al menos tres caracteres')
-      return
-    }
-
-    setError(null)
-
-  }, [query])
-
-  return{query, setQuery, error}
-
-}
 
 function App() {
-
-  const { query, setQuery, error} = useSearch()
-
-  // const [responseProducts, setResponsiveProducts] = useState([])
-  const products = responseProducts.Search
-
-
-  const handleSubmit = (event) => {
-    event.preventDefault()
-    
-    if(previousSearch.current == query) return
-    if(query){
-      searchProducts({query,setResponsiveProducts}) // Crear funcion searchProducts
-      
-    }
-    else{
-      setResponsiveProducts(withoutResults)
-    }
-    
-  }
-
-  const handleChange = (event) => {
-    const newQuery = event.target.value
-    setQuery(newQuery)
-    
-  }
-
-
-
-  const hasproducts = products?.length >0
 
   return (
 
     
-      
+      <>
 
-      <main>
-        <div className='rock-image'>
-          <img src="src/img/rook.jpg" alt="" />
-        </div>
-        <div className="opacidad"></div>
-        
-        
-        
         <HeaderCatalogo></HeaderCatalogo>
+
+
+        <main>
+          <QuienesSomos></QuienesSomos>
+          <Historia></Historia>
+          <Objetivos></Objetivos>
+          <Equipo></Equipo>
+        </main>
+
+        <footer>
+          <Footer></Footer>
+        </footer>
         
-        <form className='form' onSubmit={handleSubmit} >
-            <input name='query' placeholder='Muscle Tech, My Protein...' type="text" />
-            {/* <input type="checkbox" onChange={handleSort} checked={sort} /> */}
-            <button type='submit'>buscar</button>
-          </form>
-        <section className='products'>
-          
-            {
-              hasproducts?(renderCatalogo({products}))
-              :(renderNoResults()) 
-            }
-        </section>
-        
-      </main>
 
 
-    
-    
-    
-
+      </>
 
   )
 }

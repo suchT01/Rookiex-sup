@@ -1,5 +1,16 @@
-export const quienesSomos = () =>{
+export function QuienesSomos () {
+
     return(
-        <p>¿Quienes somos?</p>
+
+        <section id="somos">
+                <h2>¿Quiénes somos?</h2>
+                <p>Somos una empresa dedicada a la comercialización de
+                   suplementos y accesorios para gimnasio.  
+                </p>
+                <img src="/src/img/vieja.jpg"></img>
+        </section>
+
     )
+
+
 }
