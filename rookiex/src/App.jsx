@@ -6,12 +6,7 @@ import { Objetivos } from './components/Objetivos';
 import { Equipo } from './components/Equipo';
 import { Footer } from './components/Footer';
 import './css/landing.css';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
+
 
 
 function App() {
