@@ -2,7 +2,7 @@
   "products":[
      {
         "id":30,
-        "title":"Key Holder",
+        "title":"Bodylab24 Whey Protein Powder",
         "description":"Attractive DesignMetallic materialFour key hooksReliable & DurablePremium Quality",
         "price":300,
         "discountPercentage":2.92,
@@ -10,23 +10,20 @@
         "stock":54,
         "brand":"Golden",
         "category":"home-decoration",
-        "thumbnail":"https://i.dummyjson.com/data/products/30/thumbnail.jpg",
+        "thumbnail":"src/img/Bodylab24 Whey Protein Powder.webp",
         "images":[
-           "https://i.dummyjson.com/data/products/30/1.jpg",
-           "https://i.dummyjson.com/data/products/30/2.jpg",
-           "https://i.dummyjson.com/data/products/30/3.jpg",
-           "https://i.dummyjson.com/data/products/30/thumbnail.jpg"
+           "src/img/Bodylab24 Whey Protein Powder.webp"
         ]
      },
      {
          "id": 1,
-         "title": "Nitro Whey Protein - 1,8kg",
+         "title": "Myprotein Impact Whey Protein",
          "description": "Protein supplement for muscle growth and recovery.",
          "price": 0,
          "category": "Protein",
-         "thumbnail": "src/img/nitro-tech-performance-series-18-kg.webp",
-         "images": [
-         "src/img/nitro-tech-performance-series-18-kg.webp"
+         "thumbnail": "src/img/Myprotein Impact Whey Protein.webp",
+         "images":[
+         "src/img/Myprotein Impact Whey Protein.webp"
       ]
       },
      {
@@ -38,7 +35,7 @@
         "rating":4.44,
         "stock":34,
         "brand":"Apple",
-        "category":"smartphones",
+        "category":"Protein",
         "thumbnail":"src/img/nitro-tech-performance-series-18-kg.webp",
         "images":[
            "src/img/nitro-tech-performance-series-18-kg.webp"
@@ -46,22 +43,22 @@
      },
      {
         "id":3,
-        "title":"Samsung Universe 9",
+        "title":"MuscleTech Nitro-Tech 100% Whey Gold",
         "description":"Samsung's new variant which goes beyond Galaxy to the Universe",
         "price":1249,
         "discountPercentage":15.46,
         "rating":4.09,
         "stock":36,
         "brand":"Samsung",
-        "category":"smartphones",
-        "thumbnail":"https://i.dummyjson.com/data/products/3/thumbnail.jpg",
+        "category":"Protein",
+        "thumbnail":"src/img/whey_gold_5lb_french_vanilla_cream.webp",
         "images":[
-           "https://i.dummyjson.com/data/products/3/1.jpg"
+           "src/img/whey_gold_5lb_french_vanilla_cream.webp"
         ]
      },
      {
         "id":4,
-        "title":"OPPOF19",
+        "title":"MuscleTech Nitro-Tech Ripped",
         "description":"OPPO F19 is officially announced on April 2021.",
         "price":280,
         "discountPercentage":17.91,
@@ -69,91 +66,74 @@
         "stock":123,
         "brand":"OPPO",
         "category":"smartphones",
-        "thumbnail":"https://i.dummyjson.com/data/products/4/thumbnail.jpg",
+        "thumbnail":"src/img/nitro-tech_ripped_4lbs_chocfudgebrownie.webp",
         "images":[
-           "https://i.dummyjson.com/data/products/4/1.jpg",
-           "https://i.dummyjson.com/data/products/4/2.jpg",
-           "https://i.dummyjson.com/data/products/4/3.jpg",
-           "https://i.dummyjson.com/data/products/4/4.jpg",
-           "https://i.dummyjson.com/data/products/4/thumbnail.jpg"
+           "src/img/nitro-tech_ripped_4lbs_chocfudgebrownie.webp"
         ]
      },
      {
         "id":5,
-        "title":"Huawei P30",
+        "title":"Tri-Protein Crazy Nutrition",
         "description":"Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
         "price":499,
         "discountPercentage":10.58,
         "rating":4.09,
         "stock":32,
         "brand":"Huawei",
-        "category":"smartphones",
-        "thumbnail":"https://i.dummyjson.com/data/products/5/thumbnail.jpg",
+        "category":"Protein",
+        "thumbnail":"src/img/Chocolate-Tri-Protein-1.webp",
         "images":[
-           "https://i.dummyjson.com/data/products/5/1.jpg",
-           "https://i.dummyjson.com/data/products/5/2.jpg",
-           "https://i.dummyjson.com/data/products/5/3.jpg"
+           "src/img/Chocolate-Tri-Protein-1.webp"
         ]
      },
      {
         "id":7,
-        "title":"Samsung Galaxy Book",
+        "title":"Creatine Powder Optimum Nutrition",
         "description":"Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
         "price":1499,
         "discountPercentage":4.15,
         "rating":4.25,
         "stock":50,
         "brand":"Samsung",
-        "category":"laptops",
-        "thumbnail":"https://i.dummyjson.com/data/products/7/thumbnail.jpg",
+        "category":"Creatine",
+        "thumbnail":"src/img/micronized.webp",
         "images":[
-           "https://i.dummyjson.com/data/products/7/1.jpg",
-           "https://i.dummyjson.com/data/products/7/2.jpg",
-           "https://i.dummyjson.com/data/products/7/3.jpg",
-           "https://i.dummyjson.com/data/products/7/thumbnail.jpg"
+           "src/img/micronized.webp"
         ]
      },
      {
         "id":1,
-        "title":"iPhone 9",
+        "title":"Myprotein Impact Whey Protein",
         "description":"An apple mobile which is nothing like apple",
         "price":549,
         "discountPercentage":12.96,
         "rating":4.69,
         "stock":94,
         "brand":"Apple",
-        "category":"smartphones",
-        "thumbnail":"https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+        "category":"Protein",
+        "thumbnail":"src/img/Myprotein Impact Whey Protein.webp",
         "images":[
-           "https://i.dummyjson.com/data/products/1/1.jpg",
-           "https://i.dummyjson.com/data/products/1/2.jpg",
-           "https://i.dummyjson.com/data/products/1/3.jpg",
-           "https://i.dummyjson.com/data/products/1/4.jpg",
-           "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+           "src/img/Myprotein Impact Whey Protein.webp"
         ]
      },
      {
         "id":8,
-        "title":"Microsoft Surface Laptop 4",
+        "title":"Moons Truck Zoomad Labs",
         "description":"Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
         "price":1499,
         "discountPercentage":10.23,
         "rating":4.43,
         "stock":68,
         "brand":"Microsoft Surface",
-        "category":"laptops",
-        "thumbnail":"https://i.dummyjson.com/data/products/8/thumbnail.jpg",
+        "category":"Pre-entreno",
+        "thumbnail":"src/img/Moons Truck Zoomad Labs.webp",
         "images":[
-           "https://i.dummyjson.com/data/products/8/1.jpg",
-           "https://i.dummyjson.com/data/products/8/2.jpg",
-           "https://i.dummyjson.com/data/products/8/3.jpg",
-           "https://i.dummyjson.com/data/products/8/4.jpg",
-           "https://i.dummyjson.com/data/products/8/thumbnail.jpg"
+           "src/img/Moons Truck Zoomad Labs.webp"
         ]
      },
      {
         "id":9,
-        "title":"Infinix INBOOK",
+        "title":"PROSUPPS HYDE PRE-WORKOUT PROSUPPS",
         "description":"Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
         "price":1099,
         "discountPercentage":11.83,
@@ -161,18 +141,14 @@
         "stock":96,
         "brand":"Infinix",
         "category":"laptops",
-        "thumbnail":"https://i.dummyjson.com/data/products/9/thumbnail.jpg",
+        "thumbnail":"src/img/PROSUPPS HYDE PRE-WORKOUT PROSUPPS.webp",
         "images":[
-           "https://i.dummyjson.com/data/products/9/1.jpg",
-           "https://i.dummyjson.com/data/products/9/2.png",
-           "https://i.dummyjson.com/data/products/9/3.png",
-           "https://i.dummyjson.com/data/products/9/4.jpg",
-           "https://i.dummyjson.com/data/products/9/thumbnail.jpg"
+           "src/img/PROSUPPS HYDE PRE-WORKOUT PROSUPPS.webp"
         ]
      },
      {
         "id":10,
-        "title":"HP Pavilion 15-DK1056WM",
+        "title":"PLATINUM 100% CREATINE",
         "description":"HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
         "price":1099,
         "discountPercentage":6.18,
@@ -180,203 +156,164 @@
         "stock":89,
         "brand":"HP Pavilion",
         "category":"laptops",
-        "thumbnail":"https://i.dummyjson.com/data/products/10/thumbnail.jpeg",
+        "thumbnail":"src/img/muscletech-100-creatine_1024x102.webp",
         "images":[
-           "https://i.dummyjson.com/data/products/10/1.jpg",
-           "https://i.dummyjson.com/data/products/10/2.jpg",
-           "https://i.dummyjson.com/data/products/10/3.jpg",
-           "https://i.dummyjson.com/data/products/10/thumbnail.jpeg"
+           "src/img/muscletech-100-creatine_1024x102.webp"
         ]
      },
      {
         "id":11,
-        "title":"perfume Oil",
+        "title":"CELL-TECH",
         "description":"Mega Discount, Impression of Acqua Di Gio by GiorgioArmani concentrated attar perfume Oil",
         "price":13,
         "discountPercentage":8.4,
         "rating":4.26,
         "stock":65,
         "brand":"Impression of Acqua Di Gio",
-        "category":"fragrances",
-        "thumbnail":"https://i.dummyjson.com/data/products/11/thumbnail.jpg",
+        "category":"Creatine",
+        "thumbnail":"src/img/muscletech-celletech-fruitpunch.webp",
         "images":[
-           "https://i.dummyjson.com/data/products/11/1.jpg",
-           "https://i.dummyjson.com/data/products/11/2.jpg",
-           "https://i.dummyjson.com/data/products/11/3.jpg",
-           "https://i.dummyjson.com/data/products/11/thumbnail.jpg"
+           "src/img/muscletech-celletech-fruitpunch.webp"
         ]
      },
      {
         "id":12,
-        "title":"Brown Perfume",
+        "title":"CREATINE BUNDLE",
         "description":"Royal_Mirage Sport Brown Perfume for Men & Women - 120ml",
         "price":40,
         "discountPercentage":15.66,
         "rating":4,
         "stock":52,
         "brand":"Royal_Mirage",
-        "category":"fragrances",
-        "thumbnail":"https://i.dummyjson.com/data/products/12/thumbnail.jpg",
+        "category":"Creatine",
+        "thumbnail":"src/img/Combo_gg.webp",
         "images":[
-           "https://i.dummyjson.com/data/products/12/1.jpg",
-           "https://i.dummyjson.com/data/products/12/2.jpg",
-           "https://i.dummyjson.com/data/products/12/3.png",
-           "https://i.dummyjson.com/data/products/12/4.jpg",
-           "https://i.dummyjson.com/data/products/12/thumbnail.jpg"
+           "src/img/Combo_gg.webp"
         ]
      },
      {
         "id":13,
-        "title":"Fog Scent Xpressio Perfume",
+        "title":"Creatina Biotech USA",
         "description":"Product details of Best Fog Scent Xpressio Perfume 100ml For Men cool long lasting perfumes for Men",
         "price":13,
         "discountPercentage":8.14,
         "rating":4.59,
         "stock":61,
         "brand":"Fog Scent Xpressio",
-        "category":"fragrances",
-        "thumbnail":"https://i.dummyjson.com/data/products/13/thumbnail.webp",
+        "category":"Creatine",
+        "thumbnail":"src/img/creatina_USA.webp",
         "images":[
-           "https://i.dummyjson.com/data/products/13/1.jpg",
-           "https://i.dummyjson.com/data/products/13/2.png",
-           "https://i.dummyjson.com/data/products/13/3.jpg",
-           "https://i.dummyjson.com/data/products/13/4.jpg",
-           "https://i.dummyjson.com/data/products/13/thumbnail.webp"
+           "src/img/creatina_USA.webp"
         ]
      },
      {
         "id":14,
-        "title":"Non-Alcoholic Concentrated Perfume Oil",
+        "title":"High Pro Nutrition Bcaa Power 300 Gr Frambuesa",
         "description":"Original Al Munakh® by Mahal Al Musk | Our Impression of Climate | 6ml Non-Alcoholic Concentrated Perfume Oil",
         "price":120,
         "discountPercentage":15.6,
         "rating":4.21,
         "stock":114,
         "brand":"Al Munakh",
-        "category":"fragrances",
-        "thumbnail":"https://i.dummyjson.com/data/products/14/thumbnail.jpg",
+        "category":"Protein",
+        "thumbnail":"src/img/High Pro Nutrition Bcaa.webp",
         "images":[
-           "https://i.dummyjson.com/data/products/14/1.jpg",
-           "https://i.dummyjson.com/data/products/14/2.jpg",
-           "https://i.dummyjson.com/data/products/14/3.jpg",
-           "https://i.dummyjson.com/data/products/14/thumbnail.jpg"
+           "src/img/High Pro Nutrition Bcaa.webp"
         ]
      },
      {
         "id":15,
-        "title":"Eau De Perfume Spray",
+        "title":"ALPHATEST THERMO",
         "description":"Genuine  Al-Rehab spray perfume from UAE/Saudi Arabia/Yemen High Quality",
         "price":30,
         "discountPercentage":10.99,
         "rating":4.7,
         "stock":105,
         "brand":"Lord - Al-Rehab",
-        "category":"fragrances",
-        "thumbnail":"https://i.dummyjson.com/data/products/15/thumbnail.jpg",
+        "category":"Protein",
+        "thumbnail":"src/img/muscletech-alphatest-thermo_6db2.webp",
         "images":[
-           "https://i.dummyjson.com/data/products/15/1.jpg",
-           "https://i.dummyjson.com/data/products/15/2.jpg",
-           "https://i.dummyjson.com/data/products/15/3.jpg",
-           "https://i.dummyjson.com/data/products/15/4.jpg",
-           "https://i.dummyjson.com/data/products/15/thumbnail.jpg"
+           "src/img/muscletech-alphatest-thermo_6db2.webp"
         ]
      },
      {
         "id":16,
-        "title":"Hyaluronic Acid Serum",
+        "title":"CREATINE CHEWS",
         "description":"L'OrÃ©al Paris introduces Hyaluron Expert Replumping Serum formulated with 1.5% Hyaluronic Acid",
         "price":19,
         "discountPercentage":13.31,
         "rating":4.83,
         "stock":110,
         "brand":"L'Oreal Paris",
-        "category":"skincare",
-        "thumbnail":"https://i.dummyjson.com/data/products/16/thumbnail.jpg",
+        "category":"Creatine",
+        "thumbnail":"src/img/muscletech-creatine-chews_1024x1.webp",
         "images":[
-           "https://i.dummyjson.com/data/products/16/1.png",
-           "https://i.dummyjson.com/data/products/16/2.webp",
-           "https://i.dummyjson.com/data/products/16/3.jpg",
-           "https://i.dummyjson.com/data/products/16/4.jpg",
-           "https://i.dummyjson.com/data/products/16/thumbnail.jpg"
+           "src/img/muscletech-creatine-chews_1024x1.webp"
         ]
      },
      {
         "id":17,
-        "title":"Tree Oil 30ml",
+        "title":"EUPHORIQ PRE-WORKOUT",
         "description":"Tea tree oil contains a number of compounds, including terpinen-4-ol, that have been shown to kill certain bacteria,",
         "price":12,
         "discountPercentage":4.09,
         "rating":4.52,
         "stock":78,
         "brand":"Hemani Tea",
-        "category":"skincare",
-        "thumbnail":"https://i.dummyjson.com/data/products/17/thumbnail.jpg",
+        "category":"Pre-entreno",
+        "thumbnail":"src/img/muscletech-euphoriq-boogieman-pu.webp",
         "images":[
-           "https://i.dummyjson.com/data/products/17/1.jpg",
-           "https://i.dummyjson.com/data/products/17/2.jpg",
-           "https://i.dummyjson.com/data/products/17/3.jpg",
-           "https://i.dummyjson.com/data/products/17/thumbnail.jpg"
+           "/src/img/muscletech-euphoriq-boogieman-pu.webp"
         ]
      },
      {
         "id":18,
-        "title":"Oil Free Moisturizer 100ml",
+        "title":"BURN IQ",
         "description":"Dermive Oil Free Moisturizer with SPF 20 is specifically formulated with ceramides, hyaluronic acid & sunscreen.",
         "price":40,
         "discountPercentage":13.1,
         "rating":4.56,
         "stock":88,
         "brand":"Dermive",
-        "category":"skincare",
-        "thumbnail":"https://i.dummyjson.com/data/products/18/thumbnail.jpg",
+        "category":"Protein",
+        "thumbnail":"src/img/muscletech-burniq-mango_1024x102.webp",
         "images":[
-           "https://i.dummyjson.com/data/products/18/1.jpg",
-           "https://i.dummyjson.com/data/products/18/2.jpg",
-           "https://i.dummyjson.com/data/products/18/3.jpg",
-           "https://i.dummyjson.com/data/products/18/4.jpg",
-           "https://i.dummyjson.com/data/products/18/thumbnail.jpg"
+           "src/img/muscletech-burniq-mango_1024x102.webp"
         ]
      },
      {
         "id":19,
-        "title":"Skin Beauty Serum.",
+        "title":"ISOWHEY",
         "description":"Product name: rorec collagen hyaluronic acid white face serum riceNet weight: 15 m",
         "price":46,
         "discountPercentage":10.68,
         "rating":4.42,
         "stock":54,
         "brand":"ROREC White Rice",
-        "category":"skincare",
-        "thumbnail":"https://i.dummyjson.com/data/products/19/thumbnail.jpg",
+        "category":"Protein",
+        "thumbnail":"src/img/muscletech-isowhey-choc-2lb_1024.webp",
         "images":[
-           "https://i.dummyjson.com/data/products/19/1.jpg",
-           "https://i.dummyjson.com/data/products/19/2.jpg",
-           "https://i.dummyjson.com/data/products/19/3.png",
-           "https://i.dummyjson.com/data/products/19/thumbnail.jpg"
+           "src/img/muscletech-isowhey-choc-2lb_1024.webp"
         ]
      },
      {
         "id":20,
-        "title":"Freckle Treatment Cream- 15gm",
+        "title":"GAINS BUNDLE",
         "description":"Fair & Clear is Pakistan's only pure Freckle cream which helpsfade Freckles, Darkspots and pigments. Mercury level is 0%, so there are no side effects.",
         "price":70,
         "discountPercentage":16.99,
         "rating":4.06,
         "stock":140,
         "brand":"Fair & Clear",
-        "category":"skincare",
-        "thumbnail":"https://i.dummyjson.com/data/products/20/thumbnail.jpg",
+        "category":"Protein",
+        "thumbnail":"src/img/muscletech-bundle-gains_750x750.webp",
         "images":[
-           "https://i.dummyjson.com/data/products/20/1.jpg",
-           "https://i.dummyjson.com/data/products/20/2.jpg",
-           "https://i.dummyjson.com/data/products/20/3.jpg",
-           "https://i.dummyjson.com/data/products/20/4.jpg",
-           "https://i.dummyjson.com/data/products/20/thumbnail.jpg"
+           "src/img/muscletech-bundle-gains_750x750.webp"
         ]
      },
      {
         "id":21,
-        "title":"- Daal Masoor 500 grams",
+        "title":"PLATINUM 100% EAA+",
         "description":"Fine quality Branded Product Keep in a cool and dry place",
         "price":20,
         "discountPercentage":4.81,
@@ -384,16 +321,14 @@
         "stock":133,
         "brand":"Saaf & Khaas",
         "category":"groceries",
-        "thumbnail":"https://i.dummyjson.com/data/products/21/thumbnail.png",
+        "thumbnail":"src/img/muscletech-eaa-fruit-punch_1024x.webp",
         "images":[
-           "https://i.dummyjson.com/data/products/21/1.png",
-           "https://i.dummyjson.com/data/products/21/2.jpg",
-           "https://i.dummyjson.com/data/products/21/3.jpg"
+           "src/img/muscletech-eaa-fruit-punch_1024x.webp"
         ]
      },
      {
         "id":22,
-        "title":"Elbow Macaroni - 400 gm",
+        "title":"CELL-TECH CREACTOR",
         "description":"Product details of Bake Parlor Big Elbow Macaroni - 400 gm",
         "price":14,
         "discountPercentage":15.58,
@@ -401,16 +336,14 @@
         "stock":146,
         "brand":"Bake Parlor Big",
         "category":"groceries",
-        "thumbnail":"https://i.dummyjson.com/data/products/22/thumbnail.jpg",
+        "thumbnail":"src/img/muscletech-celltech-creactor-unf.webp",
         "images":[
-           "https://i.dummyjson.com/data/products/22/1.jpg",
-           "https://i.dummyjson.com/data/products/22/2.jpg",
-           "https://i.dummyjson.com/data/products/22/3.jpg"
+           "src/img/muscletech-celltech-creactor-unf.webp"
         ]
      },
      {
         "id":23,
-        "title":"Orange Essence Food Flavou",
+        "title":"NITRO TECH 100% WHEY GOLD",
         "description":"Specifications of Orange Essence Food Flavour For Cakes and Baking Food Item",
         "price":14,
         "discountPercentage":8.04,
@@ -418,18 +351,14 @@
         "stock":26,
         "brand":"Baking Food Items",
         "category":"groceries",
-        "thumbnail":"https://i.dummyjson.com/data/products/23/thumbnail.jpg",
+        "thumbnail":"src/img/muscletech-nitrotech-wheygold-ch.webp",
         "images":[
-           "https://i.dummyjson.com/data/products/23/1.jpg",
-           "https://i.dummyjson.com/data/products/23/2.jpg",
-           "https://i.dummyjson.com/data/products/23/3.jpg",
-           "https://i.dummyjson.com/data/products/23/4.jpg",
-           "https://i.dummyjson.com/data/products/23/thumbnail.jpg"
+           "src/img/muscletech-nitrotech-wheygold-ch.webp"
         ]
      },
      {
         "id":24,
-        "title":"cereals muesli fruit nuts",
+        "title":"ISO WHEY CLEAR",
         "description":"original fauji cereal muesli 250gm box pack original fauji cereals muesli fruit nuts flakes breakfast cereal break fast faujicereals cerels cerel foji fouji",
         "price":46,
         "discountPercentage":16.8,
@@ -437,13 +366,9 @@
         "stock":113,
         "brand":"fauji",
         "category":"groceries",
-        "thumbnail":"https://i.dummyjson.com/data/products/24/thumbnail.jpg",
+        "thumbnail":"src/img/muscletech-iso-whey-clear-orange.webp",
         "images":[
-           "https://i.dummyjson.com/data/products/24/1.jpg",
-           "https://i.dummyjson.com/data/products/24/2.jpg",
-           "https://i.dummyjson.com/data/products/24/3.jpg",
-           "https://i.dummyjson.com/data/products/24/4.jpg",
-           "https://i.dummyjson.com/data/products/24/thumbnail.jpg"
+           "src/img/muscletech-iso-whey-clear-orange.webp"
         ]
      },
      {
