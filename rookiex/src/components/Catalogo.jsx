@@ -8,7 +8,6 @@ export const renderCatalogo = ({products}) => {
                     <img src={product.Poster} alt="" />
                     <h3>{product.Title}</h3>
                     
-                    
                   </li>
                   
                 ))

@@ -7,6 +7,7 @@ import { Equipo } from './components/Equipo';
 import { Footer } from './components/Footer';
 import './css/landing.css';
 import { Route, Routes } from 'react-router-dom';
+import { renderCatalogo } from './components/Catalogo';
 
 
 function App() {
@@ -14,22 +15,17 @@ function App() {
   return (
 
     
-      <>
+      <div>
 
         <HeaderCatalogo></HeaderCatalogo>
 
-
-        <main>
-          <QuienesSomos></QuienesSomos>
-          <Historia></Historia>
-          <Objetivos></Objetivos>
-          <Equipo></Equipo>
-        </main>
+        
+        
 
         <div>
           <Routes>
-            <Route path='/Catalogo'></Route>
-            <Route path='/'></Route>
+            <Route path='/Catalogo' element={<renderCatalogo/>}></Route>
+            <Route path='/' element={ <main><QuienesSomos></QuienesSomos><Historia></Historia><Objetivos></Objetivos><Equipo></Equipo></main> }></Route>
           </Routes>
         </div>
         
@@ -37,7 +33,7 @@ function App() {
         <footer>
           <Footer></Footer>
         </footer>
-      </>
+      </div>
 
   )
 }
