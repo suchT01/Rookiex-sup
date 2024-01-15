@@ -6,7 +6,7 @@ import { Objetivos } from './components/Objetivos';
 import { Equipo } from './components/Equipo';
 import { Footer } from './components/Footer';
 import './css/landing.css';
-
+import { Route, Routes } from 'react-router-dom';
 
 
 function App() {
@@ -26,12 +26,17 @@ function App() {
           <Equipo></Equipo>
         </main>
 
+        <div>
+          <Routes>
+            <Route path='/Catalogo'></Route>
+            <Route path='/'></Route>
+          </Routes>
+        </div>
+        
+        
         <footer>
           <Footer></Footer>
         </footer>
-        
-
-
       </>
 
   )
