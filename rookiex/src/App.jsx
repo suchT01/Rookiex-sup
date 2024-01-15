@@ -1,12 +1,17 @@
-import { useState, useRef, useEffect } from 'react'
-import { HeaderCatalogo } from './components/Header'
-import { QuienesSomos } from './components/QuienesSomos'
-import { Historia } from './components/Historia'
-import { Objetivos } from './components/Objetivos'
-import { Equipo } from './components/Equipo'
-import { Footer } from './components/Footer'
-import './css/landing.css'
-
+import { useState, useRef, useEffect } from 'react';
+import { HeaderCatalogo } from './components/Header';
+import { QuienesSomos } from './components/QuienesSomos';
+import { Historia } from './components/Historia';
+import { Objetivos } from './components/Objetivos';
+import { Equipo } from './components/Equipo';
+import { Footer } from './components/Footer';
+import './css/landing.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 
 function App() {
