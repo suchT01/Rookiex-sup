@@ -19,39 +19,29 @@
         ]
      },
      {
-        "id":6,
-        "title":"MacBook Pro",
-        "description":"MacBook Pro 2021 with mini-LED display may launch between September, November",
-        "price":1749,
-        "discountPercentage":11.02,
-        "rating":4.57,
-        "stock":83,
-        "brand":"Apple",
-        "category":"laptops",
-        "thumbnail":"https://i.dummyjson.com/data/products/6/thumbnail.png",
-        "images":[
-           "https://i.dummyjson.com/data/products/6/1.png",
-           "https://i.dummyjson.com/data/products/6/2.jpg",
-           "https://i.dummyjson.com/data/products/6/3.png",
-           "https://i.dummyjson.com/data/products/6/4.jpg"
-        ]
-     },
+         "id": 1,
+         "title": "Nitro Whey Protein - 1,8kg",
+         "description": "Protein supplement for muscle growth and recovery.",
+         "price": 0,
+         "category": "Protein",
+         "thumbnail": "src/img/nitro-tech-performance-series-18-kg.webp",
+         "images": [
+         "src/img/nitro-tech-performance-series-18-kg.webp"
+      ]
+      },
      {
         "id":2,
-        "title":"iPhone X",
-        "description":"SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+        "title": "Nitro Whey Protein - 1,8kg",
+        "description": "Protein supplement for muscle growth and recovery.",
         "price":899,
         "discountPercentage":17.94,
         "rating":4.44,
         "stock":34,
         "brand":"Apple",
         "category":"smartphones",
-        "thumbnail":"https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+        "thumbnail":"src/img/nitro-tech-performance-series-18-kg.webp",
         "images":[
-           "https://i.dummyjson.com/data/products/2/1.jpg",
-           "https://i.dummyjson.com/data/products/2/2.jpg",
-           "https://i.dummyjson.com/data/products/2/3.jpg",
-           "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
+           "src/img/nitro-tech-performance-series-18-kg.webp"
         ]
      },
      {
