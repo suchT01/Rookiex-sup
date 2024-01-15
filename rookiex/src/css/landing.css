@@ -56,7 +56,17 @@ body {
     color: red;
 }
 
+.header .bbtn{
+    display: flex;
+    height: 0%;
+}
+
+.header .btn{
+    width: 100px;
+}
+
 .header .btn button{
+
     font-weight: 700;
     color: red;
     padding: 9px 25px;

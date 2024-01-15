@@ -27,7 +27,7 @@ function App() {
 
         <div>
           <Routes>
-            <Route path='/Catalogo' element={ <CartProvider><Products products={filteredProducts} /></CartProvider> }></Route>
+            <Route path='/Catalogo' element={ <CartProvider> <Cart /> <Products products={filteredProducts} /></CartProvider> }></Route>
             <Route path='/' element={ <main><QuienesSomos></QuienesSomos><Historia></Historia><Objetivos></Objetivos><Equipo></Equipo></main> }></Route>
           </Routes>
         </div>

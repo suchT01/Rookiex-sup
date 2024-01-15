@@ -38,11 +38,11 @@
   height: 32px;
   justify-content: center;
   padding: 4px;
-  position: absolute;
-  right: 8px;
-  top: 8px;
+  position: fixed;
+  right: 80px;
+  top: 30px;
   transition: all .3s ease;
-  width: 32px;
+  width: 100px;
   z-index: 9999;
 }
 
@@ -51,6 +51,19 @@
 }
 
 .cart-button ~ input:checked ~ .cart {
-  height: 100%;
-  display: block;
+  overflow: auto;
+  display: flex;
+  height: 70vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 95px;
+
+
+  animation-name: enhance-header;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+  animation-timeline: scroll(root block);
+  animation-range: 0 200px;
+  z-index: 10;
 }
