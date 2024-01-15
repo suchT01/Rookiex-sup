@@ -6,6 +6,7 @@
 }
 
 .products ul {
+  width: 80%;
   display: grid;
   grid-template-columns: repeat(
     auto-fit,
@@ -15,6 +16,7 @@
     )
   );
   gap: 1rem;
+  padding: 20px;
 }
 
 .products li {
