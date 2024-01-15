@@ -11,8 +11,8 @@ export const HeaderCatalogo = () =>{
             <nav>
                 
                 <ul className="nav-links">
+                    <li><Link to="/">Home</Link></li>
                     <li><Link to="Catalogo">Suplementos</Link></li>
-                    <li><Link to="Accesorios">Accesorios</Link></li>
                     <li><Link to="Buscar">Buscar</Link></li>
                     <li><Link to="Carrito">Carrito</Link></li>
                 </ul>
