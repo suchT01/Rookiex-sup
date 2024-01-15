@@ -7,11 +7,17 @@ import { Equipo } from './components/Equipo';
 import { Footer } from './components/Footer';
 import './css/landing.css';
 import { Route, Routes } from 'react-router-dom';
-import { renderCatalogo } from './components/Catalogo';
 
+import { products as initialProducts } from './mocks/products.json'
+import { Products } from './components/Products.jsx'
+import { CartProvider } from './context/cart.jsx'
+import { useFilters } from './hooks/useFilters.js'
+import { Cart } from './components/Cart.jsx'
 
 function App() {
+  const { filterProducts } = useFilters()
 
+  const filteredProducts = filterProducts(initialProducts)
   return (
 
     
@@ -24,7 +30,7 @@ function App() {
 
         <div>
           <Routes>
-            <Route path='/Catalogo' element={<renderCatalogo/>}></Route>
+            <Route path='/Catalogo' element={ <CartProvider><Products products={filteredProducts} /></CartProvider> }></Route>
             <Route path='/' element={ <main><QuienesSomos></QuienesSomos><Historia></Historia><Objetivos></Objetivos><Equipo></Equipo></main> }></Route>
           </Routes>
         </div>
