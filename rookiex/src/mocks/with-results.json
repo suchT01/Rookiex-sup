@@ -11,10 +11,25 @@
 {"Title":"Maxtop Nutrition Bcaa 330 Gr","imdbID":"12","Type":"Aminoacido","Poster":"src/img/Maxtop Nutrition Bcaa.webp"},
 {"Title":"High Pro Nutrition Bcaa Power 300 Gr Frambuesa","imdbID":"13","Type":"Aminoacido","Poster":"src/img/High Pro Nutrition Bcaa.webp"},
 {"Title":"Dmi Bcaa 120 caps","imdbID":"14","Type":"Aminoacido","Poster":"src/img/Dmi Bcaa 120 caps.webp"},
-{"Title":"Moons Truck Zoomad Labs","imdbID":"15","Type":"Pre-entreno","Poster":"src/img/Moons Truck Zoomad Labs.webp"}],
-"totalResults":"15","Response":"True"}
+{"Title":"PLATINUM 100% CREATINE","imdbID":"15","Type":"Creatine","Poster":"src/img/muscletech-100-creatine_1024x102.webp"},
+{"Title":"CELL-TECH","imdbID":"16","Type":"Creatine","Poster":"src/img/muscletech-celletech-fruitpunch.webp"},
+{"Title":"CREATINE BUNDLE","imdbID":"17","Type":"Creatine","Poster":"src/img/Combo_gg.webp"},
+{"Title":"Moons Truck Zoomad Labs","imdbID":"18","Type":"Pre-entreno","Poster":"src/img/Moons Truck Zoomad Labs.webp"}],
+"totalResults":"18","Response":"True"}
 
 
+
+PLATINUM 100% CREATINE
+CELL-TECH
+
+
+
+('Monohidrato de creatina', 'Amix Nutrition', '', 49.99, 'imagen1.jpg', 50, 1),
+    ('Creatine Powder', 'Optimum Nutrition', 'Descripción del Producto 2', 39.99, 'imagen2.jpg', 30, 1),
+    ('100% Creatina', 'Scitec Nutrition', 'Descripción del Producto 3', 19.50, 'imagen3.jpg', 20, 1),
+    ('Creatina Creapure', 'Quality Nutrition', 'Descripción del Producto 3', 35.50, 'imagen3.jpg', 24, 1),
+    ('Creatina Maxtop Nutrition', 'Maxtop Nutrition', 'Descripción del Producto 3', 25.60, 'imagen3.jpg', 20, 1),
+    ('Creatina Biotech USA', 'Biotech USA', 'Descripción del Producto 3', 40.50, 'imagen3.jpg', 50, 1),
 
 
 
