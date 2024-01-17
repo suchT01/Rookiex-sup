@@ -20,13 +20,13 @@
      },
      {
          "id": 1,
-         "title": "Nitro Whey Protein - 1,8kg",
+         "title": "Myprotein Impact Whey Protein",
          "description": "Protein supplement for muscle growth and recovery.",
          "price": 0,
          "category": "Protein",
-         "thumbnail": "src/img/nitro-tech-performance-series-18-kg.webp",
+         "thumbnail": "src/img/Myprotein Impact Whey Protein.webp",
          "images": [
-         "src/img/nitro-tech-performance-series-18-kg.webp"
+         "src/img/Myprotein Impact Whey Protein.webp"
       ]
       },
      {
@@ -98,7 +98,7 @@
         "rating":4.25,
         "stock":50,
         "brand":"Samsung",
-        "category":"laptops",
+        "category":"Protein",
         "thumbnail":"src/img/Scitec Nutrition 100% Whey Protein Professional.webp",
         "images":[
            "src/img/Scitec Nutrition 100% Whey Protein Professional.webp"
