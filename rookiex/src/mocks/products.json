@@ -125,7 +125,7 @@
         "rating":4.43,
         "stock":68,
         "brand":"Microsoft Surface",
-        "category":"laptops",
+        "category":"Pre-entreno",
         "thumbnail":"src/img/Moons Truck Zoomad Labs.webp",
         "images":[
            "src/img/Moons Truck Zoomad Labs.webp"
@@ -133,7 +133,7 @@
      },
      {
         "id":9,
-        "title":"Infinix INBOOK",
+        "title":"PROSUPPS HYDE PRE-WORKOUT PROSUPPS",
         "description":"Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
         "price":1099,
         "discountPercentage":11.83,
@@ -141,18 +141,14 @@
         "stock":96,
         "brand":"Infinix",
         "category":"laptops",
-        "thumbnail":"https://i.dummyjson.com/data/products/9/thumbnail.jpg",
+        "thumbnail":"src/img/PROSUPPS HYDE PRE-WORKOUT PROSUPPS.webp",
         "images":[
-           "https://i.dummyjson.com/data/products/9/1.jpg",
-           "https://i.dummyjson.com/data/products/9/2.png",
-           "https://i.dummyjson.com/data/products/9/3.png",
-           "https://i.dummyjson.com/data/products/9/4.jpg",
-           "https://i.dummyjson.com/data/products/9/thumbnail.jpg"
+           "src/img/PROSUPPS HYDE PRE-WORKOUT PROSUPPS.webp"
         ]
      },
      {
         "id":10,
-        "title":"HP Pavilion 15-DK1056WM",
+        "title":"PLATINUM 100% CREATINE",
         "description":"HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
         "price":1099,
         "discountPercentage":6.18,
@@ -160,12 +156,9 @@
         "stock":89,
         "brand":"HP Pavilion",
         "category":"laptops",
-        "thumbnail":"https://i.dummyjson.com/data/products/10/thumbnail.jpeg",
+        "thumbnail":"src/img/muscletech-100-creatine_1024x102.webp",
         "images":[
-           "https://i.dummyjson.com/data/products/10/1.jpg",
-           "https://i.dummyjson.com/data/products/10/2.jpg",
-           "https://i.dummyjson.com/data/products/10/3.jpg",
-           "https://i.dummyjson.com/data/products/10/thumbnail.jpeg"
+           "src/img/muscletech-100-creatine_1024x102.webp"
         ]
      },
      {
