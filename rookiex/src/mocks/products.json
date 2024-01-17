@@ -215,7 +215,7 @@
         "rating":4.21,
         "stock":114,
         "brand":"Al Munakh",
-        "category":"fragrances",
+        "category":"Protein",
         "thumbnail":"src/img/High Pro Nutrition Bcaa.webp",
         "images":[
            "src/img/High Pro Nutrition Bcaa.webp"
@@ -230,7 +230,7 @@
         "rating":4.7,
         "stock":105,
         "brand":"Lord - Al-Rehab",
-        "category":"fragrances",
+        "category":"Protein",
         "thumbnail":"src/img/muscletech-alphatest-thermo_6db2.webp",
         "images":[
            "src/img/muscletech-alphatest-thermo_6db2.webp"
@@ -245,7 +245,7 @@
         "rating":4.83,
         "stock":110,
         "brand":"L'Oreal Paris",
-        "category":"skincare",
+        "category":"Creatine",
         "thumbnail":"src/img/muscletech-creatine-chews_1024x1.webp",
         "images":[
            "src/img/muscletech-creatine-chews_1024x1.webp"
@@ -260,7 +260,7 @@
         "rating":4.52,
         "stock":78,
         "brand":"Hemani Tea",
-        "category":"skincare",
+        "category":"Pre-entreno",
         "thumbnail":"src/img/muscletech-euphoriq-boogieman-pu.webp",
         "images":[
            "/src/img/muscletech-euphoriq-boogieman-pu.webp"
@@ -275,7 +275,7 @@
         "rating":4.56,
         "stock":88,
         "brand":"Dermive",
-        "category":"skincare",
+        "category":"Protein",
         "thumbnail":"src/img/muscletech-burniq-mango_1024x102.webp",
         "images":[
            "src/img/muscletech-burniq-mango_1024x102.webp"
@@ -290,7 +290,7 @@
         "rating":4.42,
         "stock":54,
         "brand":"ROREC White Rice",
-        "category":"skincare",
+        "category":"Protein",
         "thumbnail":"src/img/muscletech-isowhey-choc-2lb_1024.webp",
         "images":[
            "src/img/muscletech-isowhey-choc-2lb_1024.webp"
@@ -305,7 +305,7 @@
         "rating":4.06,
         "stock":140,
         "brand":"Fair & Clear",
-        "category":"skincare",
+        "category":"Protein",
         "thumbnail":"src/img/muscletech-bundle-gains_750x750.webp",
         "images":[
            "src/img/muscletech-bundle-gains_750x750.webp"
