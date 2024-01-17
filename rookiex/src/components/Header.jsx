@@ -14,11 +14,11 @@ export const HeaderCatalogo = () =>{
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="Catalogo">Suplementos</Link></li>
                     <li><Link to="Buscar">Buscar</Link></li>
-                    <li><Link to="Carrito">Carrito</Link></li>
+                    <li><Link to="Contacto">Contacto</Link></li>
                 </ul>
             </nav>
 
-            <a href="#" className="btn"><button>Contacto</button></a>
+            <a href="#" className="btn"><button>Carrito</button></a>
 
         </header>
         
