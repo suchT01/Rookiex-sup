@@ -1,5 +1,8 @@
 import {Link} from 'react-router-dom';
 
+import { Cart } from './Cart.jsx'
+import { CartProvider } from '../context/cart.jsx'
+
 export const HeaderCatalogo = () =>{
     return(
 
@@ -18,7 +21,7 @@ export const HeaderCatalogo = () =>{
                 </ul>
             </nav>
 
-            <a href="#" className="btn"><button>Carrito</button></a>
+            <div className="btn"></div> 
 
         </header>
         
