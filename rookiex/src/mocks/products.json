@@ -43,7 +43,7 @@
      },
      {
         "id":3,
-        "title":"MuscleTech Nitro-Tech 100% Whey Gold",
+        "title":"Proteina Whey XS Ronnie Coleman",
         "description":"Samsung's new variant which goes beyond Galaxy to the Universe",
         "price":1249,
         "discountPercentage":15.46,
@@ -51,9 +51,9 @@
         "stock":36,
         "brand":"Samsung",
         "category":"Protein",
-        "thumbnail":"src/img/whey_gold_5lb_french_vanilla_cream.webp",
+        "thumbnail":"src/img/imagen_2023-05-09_151502877.webp",
         "images":[
-           "src/img/whey_gold_5lb_french_vanilla_cream.webp"
+           "src/img/imagen_2023-05-09_151502877.webp"
         ]
      },
      {
