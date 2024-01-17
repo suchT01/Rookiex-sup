@@ -2,7 +2,7 @@
   "products":[
      {
         "id":30,
-        "title":"Bodylab24 Whey Protein Powder",
+        "title":"Bodylab24 Whey Protein Powder (Fav. de dilan)",
         "description":"Attractive DesignMetallic materialFour key hooksReliable & DurablePremium Quality",
         "price":300,
         "discountPercentage":2.92,
@@ -28,7 +28,7 @@
       },
      {
         "id":2,
-        "title": "Nitro Whey Protein - 1,8kg",
+        "title": "Nitro Whey Protein - 1,8kg (Fav. de Zorrilla)",
         "description": "Protein supplement for muscle growth and recovery.",
         "price":899,
         "discountPercentage":17.94,
@@ -43,7 +43,7 @@
      },
      {
         "id":3,
-        "title":"Proteina Whey XS Ronnie Coleman",
+        "title":"Proteina Whey XS Ronnie Coleman (Fav. de Johiner)",
         "description":"Samsung's new variant which goes beyond Galaxy to the Universe",
         "price":1249,
         "discountPercentage":15.46,
@@ -58,7 +58,7 @@
      },
      {
         "id":4,
-        "title":"MuscleTech Nitro-Tech Ripped",
+        "title":"MuscleTech Nitro-Tech Ripped (Fav. de José)",
         "description":"OPPO F19 is officially announced on April 2021.",
         "price":280,
         "discountPercentage":17.91,
