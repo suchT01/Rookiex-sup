@@ -193,26 +193,22 @@
      },
      {
         "id":13,
-        "title":"Fog Scent Xpressio Perfume",
+        "title":"Creatina Biotech USA",
         "description":"Product details of Best Fog Scent Xpressio Perfume 100ml For Men cool long lasting perfumes for Men",
         "price":13,
         "discountPercentage":8.14,
         "rating":4.59,
         "stock":61,
         "brand":"Fog Scent Xpressio",
-        "category":"fragrances",
-        "thumbnail":"https://i.dummyjson.com/data/products/13/thumbnail.webp",
+        "category":"Creatine",
+        "thumbnail":"src/img/creatina_USA.webp",
         "images":[
-           "https://i.dummyjson.com/data/products/13/1.jpg",
-           "https://i.dummyjson.com/data/products/13/2.png",
-           "https://i.dummyjson.com/data/products/13/3.jpg",
-           "https://i.dummyjson.com/data/products/13/4.jpg",
-           "https://i.dummyjson.com/data/products/13/thumbnail.webp"
+           "src/img/creatina_USA.webp"
         ]
      },
      {
         "id":14,
-        "title":"Non-Alcoholic Concentrated Perfume Oil",
+        "title":"High Pro Nutrition Bcaa Power 300 Gr Frambuesa",
         "description":"Original Al Munakh® by Mahal Al Musk | Our Impression of Climate | 6ml Non-Alcoholic Concentrated Perfume Oil",
         "price":120,
         "discountPercentage":15.6,
@@ -220,17 +216,14 @@
         "stock":114,
         "brand":"Al Munakh",
         "category":"fragrances",
-        "thumbnail":"https://i.dummyjson.com/data/products/14/thumbnail.jpg",
+        "thumbnail":"src/img/High Pro Nutrition Bcaa.webp",
         "images":[
-           "https://i.dummyjson.com/data/products/14/1.jpg",
-           "https://i.dummyjson.com/data/products/14/2.jpg",
-           "https://i.dummyjson.com/data/products/14/3.jpg",
-           "https://i.dummyjson.com/data/products/14/thumbnail.jpg"
+           "src/img/High Pro Nutrition Bcaa.webp"
         ]
      },
      {
         "id":15,
-        "title":"Eau De Perfume Spray",
+        "title":"Maxtop Nutrition Bcaa 330 Gr",
         "description":"Genuine  Al-Rehab spray perfume from UAE/Saudi Arabia/Yemen High Quality",
         "price":30,
         "discountPercentage":10.99,
@@ -238,18 +231,14 @@
         "stock":105,
         "brand":"Lord - Al-Rehab",
         "category":"fragrances",
-        "thumbnail":"https://i.dummyjson.com/data/products/15/thumbnail.jpg",
+        "thumbnail":"src/img/Maxtop Nutrition Bcaa.webp",
         "images":[
-           "https://i.dummyjson.com/data/products/15/1.jpg",
-           "https://i.dummyjson.com/data/products/15/2.jpg",
-           "https://i.dummyjson.com/data/products/15/3.jpg",
-           "https://i.dummyjson.com/data/products/15/4.jpg",
-           "https://i.dummyjson.com/data/products/15/thumbnail.jpg"
+           "src/img/Maxtop Nutrition Bcaa.webp"
         ]
      },
      {
         "id":16,
-        "title":"Hyaluronic Acid Serum",
+        "title":"Monohidrato de creatina Amix Nutrition",
         "description":"L'OrÃ©al Paris introduces Hyaluron Expert Replumping Serum formulated with 1.5% Hyaluronic Acid",
         "price":19,
         "discountPercentage":13.31,
@@ -257,13 +246,9 @@
         "stock":110,
         "brand":"L'Oreal Paris",
         "category":"skincare",
-        "thumbnail":"https://i.dummyjson.com/data/products/16/thumbnail.jpg",
+        "thumbnail":"src/img/amix.webp",
         "images":[
-           "https://i.dummyjson.com/data/products/16/1.png",
-           "https://i.dummyjson.com/data/products/16/2.webp",
-           "https://i.dummyjson.com/data/products/16/3.jpg",
-           "https://i.dummyjson.com/data/products/16/4.jpg",
-           "https://i.dummyjson.com/data/products/16/thumbnail.jpg"
+           "src/img/amix.webp"
         ]
      },
      {
