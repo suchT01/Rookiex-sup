@@ -298,7 +298,7 @@
      },
      {
         "id":20,
-        "title":"Freckle Treatment Cream- 15gm",
+        "title":"GAINS BUNDLE",
         "description":"Fair & Clear is Pakistan's only pure Freckle cream which helpsfade Freckles, Darkspots and pigments. Mercury level is 0%, so there are no side effects.",
         "price":70,
         "discountPercentage":16.99,
@@ -306,13 +306,9 @@
         "stock":140,
         "brand":"Fair & Clear",
         "category":"skincare",
-        "thumbnail":"https://i.dummyjson.com/data/products/20/thumbnail.jpg",
+        "thumbnail":"src/img/muscletech-bundle-gains_750x750.webp",
         "images":[
-           "https://i.dummyjson.com/data/products/20/1.jpg",
-           "https://i.dummyjson.com/data/products/20/2.jpg",
-           "https://i.dummyjson.com/data/products/20/3.jpg",
-           "https://i.dummyjson.com/data/products/20/4.jpg",
-           "https://i.dummyjson.com/data/products/20/thumbnail.jpg"
+           "src/img/muscletech-bundle-gains_750x750.webp"
         ]
      },
      {

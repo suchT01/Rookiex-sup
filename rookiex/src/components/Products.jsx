@@ -12,7 +12,7 @@ export function Products ({ products }) {
   return (
     <main className='products'>
       <ul>
-        {products.slice(0, 19).map(product => {
+        {products.slice(0, 20).map(product => {
           const isProductInCart = checkProductInCart(product)
 
           return (
