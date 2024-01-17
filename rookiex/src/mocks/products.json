@@ -253,7 +253,7 @@
      },
      {
         "id":17,
-        "title":"Tree Oil 30ml",
+        "title":"EUPHORIQ PRE-WORKOUT",
         "description":"Tea tree oil contains a number of compounds, including terpinen-4-ol, that have been shown to kill certain bacteria,",
         "price":12,
         "discountPercentage":4.09,
@@ -261,17 +261,14 @@
         "stock":78,
         "brand":"Hemani Tea",
         "category":"skincare",
-        "thumbnail":"https://i.dummyjson.com/data/products/17/thumbnail.jpg",
+        "thumbnail":"src/img/muscletech-euphoriq-boogieman-pu.webp",
         "images":[
-           "https://i.dummyjson.com/data/products/17/1.jpg",
-           "https://i.dummyjson.com/data/products/17/2.jpg",
-           "https://i.dummyjson.com/data/products/17/3.jpg",
-           "https://i.dummyjson.com/data/products/17/thumbnail.jpg"
+           "/src/img/muscletech-euphoriq-boogieman-pu.webp"
         ]
      },
      {
         "id":18,
-        "title":"Oil Free Moisturizer 100ml",
+        "title":"BURN IQ",
         "description":"Dermive Oil Free Moisturizer with SPF 20 is specifically formulated with ceramides, hyaluronic acid & sunscreen.",
         "price":40,
         "discountPercentage":13.1,
@@ -279,18 +276,14 @@
         "stock":88,
         "brand":"Dermive",
         "category":"skincare",
-        "thumbnail":"https://i.dummyjson.com/data/products/18/thumbnail.jpg",
+        "thumbnail":"src/img/muscletech-burniq-mango_1024x102.webp",
         "images":[
-           "https://i.dummyjson.com/data/products/18/1.jpg",
-           "https://i.dummyjson.com/data/products/18/2.jpg",
-           "https://i.dummyjson.com/data/products/18/3.jpg",
-           "https://i.dummyjson.com/data/products/18/4.jpg",
-           "https://i.dummyjson.com/data/products/18/thumbnail.jpg"
+           "src/img/muscletech-burniq-mango_1024x102.webp"
         ]
      },
      {
         "id":19,
-        "title":"Skin Beauty Serum.",
+        "title":"ISOWHEY",
         "description":"Product name: rorec collagen hyaluronic acid white face serum riceNet weight: 15 m",
         "price":46,
         "discountPercentage":10.68,
@@ -298,12 +291,9 @@
         "stock":54,
         "brand":"ROREC White Rice",
         "category":"skincare",
-        "thumbnail":"https://i.dummyjson.com/data/products/19/thumbnail.jpg",
+        "thumbnail":"src/img/muscletech-isowhey-choc-2lb_1024.webp",
         "images":[
-           "https://i.dummyjson.com/data/products/19/1.jpg",
-           "https://i.dummyjson.com/data/products/19/2.jpg",
-           "https://i.dummyjson.com/data/products/19/3.png",
-           "https://i.dummyjson.com/data/products/19/thumbnail.jpg"
+           "src/img/muscletech-isowhey-choc-2lb_1024.webp"
         ]
      },
      {
