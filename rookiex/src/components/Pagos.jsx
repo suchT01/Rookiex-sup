@@ -4,7 +4,7 @@ export function Pagos () {
 
     return(
 
-        <body>
+        <body className='body-pagos'>
             <div className="payment-container">
                 <h2>Pasarela de pago</h2>
                 <form className="payment-form" action="" method="post">

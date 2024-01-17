@@ -2,7 +2,7 @@ import './PagoProcesado.css'
 
 export function PagoProcesado () {
     return(
-        <body>
+        <body className='body-pagos-procesados'>
             <div className="thank-you-container">
                 <div className="thank-you-message">¡Gracias por tu compra!</div>
                 <p>Tu pago ha sido procesado con éxito.</p>
