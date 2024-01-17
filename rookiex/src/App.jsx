@@ -25,9 +25,6 @@ function App() {
 
         <HeaderCatalogo></HeaderCatalogo>
 
-        
-        
-
         <div>
           <Routes>
             <Route path='/Catalogo' element={ <CartProvider><Products products={filteredProducts} /></CartProvider> }></Route>
