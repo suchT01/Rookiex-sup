@@ -19,20 +19,16 @@
         ]
      },
      {
-        "id":6,
-        "title":"Nitro Whey Protein - 1,8kg",
-        "description":"Nitro Whey Protein - 1,8kg",
-        "price":1749,
-        "discountPercentage":11.02,
-        "rating":4.57,
-        "stock":83,
-        "brand":"Apple",
-        "category":"Protein",
-        "thumbnail":"https://i.dummyjson.com/data/products/6/thumbnail.png",
-        "images":[
+         "id": 1,
+         "title": "Nitro Whey Protein - 1,8kg",
+         "description": "Protein supplement for muscle growth and recovery.",
+         "price": 0,
+         "category": "Protein",
+         "thumbnail": "src/img/nitro-tech-performance-series-18-kg.webp",
+         "images": [
          "src/img/nitro-tech-performance-series-18-kg.webp"
-        ]
-     },
+      ]
+      },
      {
         "id":2,
         "title":"iPhone X",
