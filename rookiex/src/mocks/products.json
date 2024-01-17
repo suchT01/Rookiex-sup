@@ -88,17 +88,17 @@
      },
      {
         "id":7,
-        "title":"Scitec Nutrition 100% Whey Protein Professional",
+        "title":"Creatine Powder Optimum Nutrition",
         "description":"Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
         "price":1499,
         "discountPercentage":4.15,
         "rating":4.25,
         "stock":50,
         "brand":"Samsung",
-        "category":"Protein",
-        "thumbnail":"src/img/Scitec Nutrition 100% Whey Protein Professional.webp",
+        "category":"Creatine",
+        "thumbnail":"src/img/micronized.webp",
         "images":[
-           "src/img/Scitec Nutrition 100% Whey Protein Professional.webp"
+           "src/img/micronized.webp"
         ]
      },
      {
