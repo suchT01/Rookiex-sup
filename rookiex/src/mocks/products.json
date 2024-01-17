@@ -2,7 +2,7 @@
   "products":[
      {
         "id":30,
-        "title":"Key Holder",
+        "title":"Bodylab24 Whey Protein Powder",
         "description":"Attractive DesignMetallic materialFour key hooksReliable & DurablePremium Quality",
         "price":300,
         "discountPercentage":2.92,
@@ -10,12 +10,9 @@
         "stock":54,
         "brand":"Golden",
         "category":"home-decoration",
-        "thumbnail":"https://i.dummyjson.com/data/products/30/thumbnail.jpg",
+        "thumbnail":"src/img/Bodylab24 Whey Protein Powder.webp",
         "images":[
-           "https://i.dummyjson.com/data/products/30/1.jpg",
-           "https://i.dummyjson.com/data/products/30/2.jpg",
-           "https://i.dummyjson.com/data/products/30/3.jpg",
-           "https://i.dummyjson.com/data/products/30/thumbnail.jpg"
+           "src/img/Bodylab24 Whey Protein Powder.webp"
         ]
      },
      {
@@ -25,7 +22,7 @@
          "price": 0,
          "category": "Protein",
          "thumbnail": "src/img/Myprotein Impact Whey Protein.webp",
-         "images": [
+         "images":[
          "src/img/Myprotein Impact Whey Protein.webp"
       ]
       },
