@@ -13,7 +13,7 @@ export const HeaderCatalogo = () =>{
                 <ul className="nav-links">
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="Catalogo">Suplementos</Link></li>
-                    <li><Link to="Buscar">Buscar</Link></li>
+                    {/* <li><Link to="Buscar">Buscar</Link></li> */}
                     <li><Link to="Contacto">Contacto</Link></li>
                 </ul>
             </nav>
