@@ -4,6 +4,8 @@ import { useId } from 'react'
 import { CartIcon, ClearCartIcon } from './Icons.jsx'
 import { useCart } from '../hooks/useCart.js'
 
+import {Link} from "react-router-dom"
+
 function CartItem ({ thumbnail, price, title, quantity, addToCart }) {
   return (
     <li>
@@ -49,6 +51,9 @@ export function Cart () {
 
         <button onClick={clearCart}>
           <ClearCartIcon />
+        </button>
+        <button>
+            <Link to="/Pagos">Comprar</Link>
         </button>
       </aside>
     </>

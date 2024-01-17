@@ -5,6 +5,8 @@ import { Historia } from './components/Historia';
 import { Objetivos } from './components/Objetivos';
 import { Equipo } from './components/Equipo';
 import { Footer } from './components/Footer';
+import { Pagos } from './components/Pagos';
+
 import './css/landing.css';
 import { Route, Routes } from 'react-router-dom';
 
@@ -23,19 +25,19 @@ function App() {
     
       <div>
 
-        <HeaderCatalogo></HeaderCatalogo>
+        
 
         <div>
           <Routes>
-            <Route path='/Catalogo' element={ <CartProvider> <Cart /> <Products products={filteredProducts} /></CartProvider> }></Route>
-            <Route path='/' element={ <main><QuienesSomos></QuienesSomos><Historia></Historia><Objetivos></Objetivos><Equipo></Equipo></main> }></Route>
+  
+            <Route path='/Catalogo' element={ <><HeaderCatalogo></HeaderCatalogo> <CartProvider> <Cart /> <Products products={filteredProducts} /></CartProvider> <Footer></Footer> </>}></Route>
+            <Route path='/Pagos' element={ <Pagos/> } ></Route>
+            <Route path='/' element={ <><HeaderCatalogo></HeaderCatalogo> <main><QuienesSomos></QuienesSomos><Historia></Historia><Objetivos></Objetivos><Equipo></Equipo></main><Footer></Footer> </> }></Route>
           </Routes>
         </div>
         
         
-        <footer>
-          <Footer></Footer>
-        </footer>
+        
       </div>
 
   )
