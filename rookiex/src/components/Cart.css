@@ -20,13 +20,16 @@
 
 .cart footer {
   display: flex;
+  flex-direction: row;
   gap: 8px;
   justify-content: center;
   align-items: center;
+  height: 1px;
 }
 
 .cart footer button {
   padding: 8px;
+  border-radius: 14px;
 }
 
 .cart-button {
@@ -51,14 +54,14 @@
 }
 
 .cart-button ~ input:checked ~ .cart {
+  color: #fff;
   overflow: auto;
   display: flex;
   height: 70vh;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   top: 95px;
-
+  padding: 0px 30px 30px;
 
   animation-name: enhance-header;
   animation-timing-function: linear;
@@ -66,4 +69,20 @@
   animation-timeline: scroll(root block);
   animation-range: 0 200px;
   z-index: 10;
+}
+
+.cart ul{
+  padding: 10px;
+}
+
+.cart li{
+  padding: 20px 0;
+}
+
+.cart footer{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: center;
+  width: 80%;
 }
