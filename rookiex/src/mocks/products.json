@@ -238,7 +238,7 @@
      },
      {
         "id":16,
-        "title":"Monohidrato de creatina Amix Nutrition",
+        "title":"CREATINE CHEWS",
         "description":"L'OrÃ©al Paris introduces Hyaluron Expert Replumping Serum formulated with 1.5% Hyaluronic Acid",
         "price":19,
         "discountPercentage":13.31,
@@ -246,9 +246,9 @@
         "stock":110,
         "brand":"L'Oreal Paris",
         "category":"skincare",
-        "thumbnail":"src/img/amix.webp",
+        "thumbnail":"src/img/muscletech-creatine-chews_1024x1.webp",
         "images":[
-           "src/img/amix.webp"
+           "src/img/muscletech-creatine-chews_1024x1.webp"
         ]
      },
      {
