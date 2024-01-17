@@ -6,6 +6,7 @@ import { Objetivos } from './components/Objetivos';
 import { Equipo } from './components/Equipo';
 import { Footer } from './components/Footer';
 import { Pagos } from './components/Pagos';
+import {PagoProcesado} from './components/PagoProcesado'
 
 import './css/landing.css';
 import { Route, Routes } from 'react-router-dom';
@@ -29,7 +30,7 @@ function App() {
 
         <div>
           <Routes>
-  
+            <Route path='/PagosProcesados' element={ <PagoProcesado/> }></Route>
             <Route path='/Catalogo' element={ <><HeaderCatalogo></HeaderCatalogo> <CartProvider> <Cart /> <Products products={filteredProducts} /></CartProvider> <Footer></Footer> </>}></Route>
             <Route path='/Pagos' element={ <Pagos/> } ></Route>
             <Route path='/' element={ <><HeaderCatalogo></HeaderCatalogo> <main><QuienesSomos></QuienesSomos><Historia></Historia><Objetivos></Objetivos><Equipo></Equipo></main><Footer></Footer> </> }></Route>

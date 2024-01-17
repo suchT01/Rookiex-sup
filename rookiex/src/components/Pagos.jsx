@@ -1,4 +1,5 @@
 import './Pagos.css'
+import {Link} from 'react-router-dom'
 
 export function Pagos () {
 
@@ -17,7 +18,7 @@ export function Pagos () {
                     <label htmlFor="cvv">CVV:</label>
                     <input type="text" id="cvv" name="cvv" placeholder="Ingrese el CVV" required/>
 
-                    <button type="submit">Pagar</button>
+                    <button type="submit"><Link to="/PagosProcesados">Pagar</Link></button>
                 </form>
             </div>
         </body>
